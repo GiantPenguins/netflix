@@ -1,0 +1,44 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .navigation .logo {
+    padding-left: 48px;
+    padding-top: 24px;
+  }
+  
+  .navigation img {
+    height: 48px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 48px;
+    margin-top: 24px;
+  }
+  
+  .navigation .right-link {
+    margin-left: auto;
+    background: var(--netflix-red);
+    color: var(--tint-white);
+    padding: 8px 16px 8px;
+    border-radius: 6px;
+    font-family: 'netflix-font', var(--main-font);
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .navigation .right-link:hover {
+    transition: 0.2s;
+    background-color: rgba(170, 17, 25, 0.87);
+  }
