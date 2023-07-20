@@ -62,4 +62,58 @@ body {
     height: 75%;
     z-index: -2;
   }
+
+  .center-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+  
+  .center-container h1 {
+    font-size: 2rem;
+    color: var(--tint-white);
+    font-family: var(--main-font);
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  .center-container p {
+    font-size: 1.2rem;
+    color: var(--tint-white);
+    font-family: var(--main-font);
+    margin-bottom: 24px;
+  }
+  
+  .center-container input {
+    padding: 18px;
+    border: 1px solid var(--white);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 50%;
+    color: var(--tint-white);
+    font-family: var(--main-font);
+  }
+
+  .center-container input::placeholder {
+    color: var(--white);
+  }
+
+  .center-container button.get-started-button {
+    padding: 16px 16px;
+    background-color: var(--netflix-red);
+    color: var(--tint-white);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .center-container button.get-started-button:hover {
+    background-color: rgba(170, 17, 25, 0.87);
+  }
   
