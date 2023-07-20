@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .navigation {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .navigation .logo {
+    padding: 10px;
+  }
+  
+  .navigation img {
+    height: 48px; 
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin: 0 10px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .backgroundImg {
+    background-image: url('http://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+  }
